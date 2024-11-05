@@ -1,3 +1,4 @@
+using Restoraunt.Restoraunt.BL.Auth.Entities;
 using Restoraunt.Restoraunt.BL.Trainers.Entities;
 using Restoraunt.Restoraunt.DataAccess;
 using Restoraunt.Restoraunt.Service.Controllers.Entities;
@@ -12,5 +13,5 @@ public interface IAdminsProvider
     // Get a specific admin by Id
     AdminModel GetAdminInfo(int id);
     // Get filtered admins
-    IEnumerable<AdminModel> GetAdmins(AdminsFilter filter);
+    IEnumerable<AdminModel> GetAdmins(AdminModelFilter filter);
 }

@@ -39,7 +39,6 @@ public class UsersManager : IUsersManager
 
         return _mapper.Map<UserModel>(entity);
     }
-
     public void DeleteUser(int id)
     {
         var entity = _usersRepository.GetById(id);

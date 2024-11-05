@@ -29,7 +29,6 @@ public class UsersProvider : IUserProvider
         {
             throw new ArgumentException("User not found.");
         }
-
         return _mapper.Map<UserModel>(user);
     }
 

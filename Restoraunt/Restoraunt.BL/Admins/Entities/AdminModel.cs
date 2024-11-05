@@ -1,3 +1,5 @@
+using Restoraunt.Restoraunt.BL.Auth.Entities;
+
 namespace Restoraunt.Restoraunt.BL.Trainers.Entities;
 
 public class AdminModel

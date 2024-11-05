@@ -38,7 +38,6 @@ public class AdminsManager : IAdminsManager
 
         return _mapper.Map<AdminModel>(entity);
     }
-    
 
     public void DeleteAdmin(int id)
     {

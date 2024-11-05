@@ -10,7 +10,6 @@ public interface IUserProvider
 
     // Get a specific admin by Id
     UserModel GetUserInfo(int id);
-
-    // Get filtered admins
+    
     IEnumerable<UserModel> GetUsers(UsersFilter filter);
 }

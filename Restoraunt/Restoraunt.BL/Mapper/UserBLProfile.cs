@@ -3,7 +3,6 @@ using Restoraunt.Restoraunt.BL.Auth.Entities;
 using Restoraunt.Restoraunt.DataAccess;
 
 namespace FitnessClub.BL.Mapper;
-
 public class UserBLProfile : Profile
 {
     public UserBLProfile()

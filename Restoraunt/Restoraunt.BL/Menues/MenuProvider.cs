@@ -39,5 +39,4 @@ public class MenusProvider : IMenusProvider
 
         return _mapper.Map<IEnumerable<MenuModel>>(menus);
     }
-
 }

@@ -20,3 +20,4 @@ public class MenuBLProfile : Profile
             .ForMember(x => x.CreationTime, y => y.Ignore());
     }
 }
+

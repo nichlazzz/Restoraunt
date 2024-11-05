@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Restoraunt.Restoraunt.BL.Auth;
+using Restoraunt.Restoraunt.BL.Auth.Entities;
 using Restoraunt.Restoraunt.BL.Trainers.Entities;
 using Restoraunt.Restoraunt.DataAccess;
 using Restoraunt.Restoraunt.Service.Controllers.Entities;
@@ -32,7 +33,7 @@ public class AdminsProvider : IAdminsProvider
         return _mapper.Map<AdminModel>(admin);
     }
 
-    public IEnumerable<AdminModel> GetAdmins(AdminsFilter filter)
+    public IEnumerable<AdminModel> GetAdmins(AdminModelFilter filter)
     {
         var admins = _adminsRepository.GetAll();
 
