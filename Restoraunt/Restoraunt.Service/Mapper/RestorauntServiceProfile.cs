@@ -3,7 +3,7 @@ using Restoraunt.Restoraunt.Service.Controllers.Entities;
 using AutoMapper;
 using Restoraunt.Restoraunt.BL.Trainers.Entities;
 using Restoraunt.Restoraunt.DataAccess;
-using AdminsModelFilter = Restoraunt.Restoraunt.BL.Auth.Entities.AdminsModelFilter;
+using AdminsModelFilter = Restoraunt.Restoraunt.BL.Auth.Entities.AdminModelFilter;
 
 namespace Restoraunt.Restoraunt.Service.Mapper;
 

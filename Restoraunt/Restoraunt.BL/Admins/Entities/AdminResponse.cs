@@ -1,6 +1,6 @@
 namespace Restoraunt.Restoraunt.BL.Auth.Entities;
 
-public class AdminsModelFilter
+public class AdminModelFilter
 {
     public string Email { get; set; }
 }
